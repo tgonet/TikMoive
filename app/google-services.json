@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393478477172",
+    "project_id": "tikmoive",
+    "storage_bucket": "tikmoive.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393478477172:android:aacd735d2d12f4cf3b4821",
+        "android_client_info": {
+          "package_name": "com.example.tikmoive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393478477172-i02e60cdrfrjbap5e0brteeuk10tg3mr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdgryj5aMTAlP4SQe3fvgB26HBZC1FEOw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393478477172-i02e60cdrfrjbap5e0brteeuk10tg3mr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
