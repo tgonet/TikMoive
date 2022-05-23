@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/whitetextfield"
+        android:ems="10"
+        android:hint="What are you looking for?"
+        android:inputType="textPersonName"
+        android:paddingLeft="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/suggest_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="45dp"
+        android:text="SUGGESTED FOR YOU"
+        android:textColor="#FADB9B"
+        android:textSize="25sp"
+        android:textStyle="normal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/suggestview"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/movie_recyclerview_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suggest_title" />
+
+    <TextView
+        android:id="@+id/trending_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="25dp"
+        android:text="TRENDING"
+        android:textColor="#FADB9B"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/suggestview" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/trendingview"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/movie_recyclerview_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trending_title" />
+
+    <TextView
+        android:id="@+id/lastview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="25dp"
+        android:text="LAST VIEWED"
+        android:textColor="#FADB9B"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/trendingview" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/lastviewedview"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/movie_recyclerview_background"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastview_title" />
+</androidx.constraintlayout.widget.ConstraintLayout>
