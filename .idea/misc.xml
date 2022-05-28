@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/layout/activity_potential_movies_display.xml" value="0.22826086956521738" />
+        <entry key="..\:/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/layout/activity_register.xml" value="0.25" />
+        <entry key="..\:/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/layout/activity_search.xml" value="0.25" />
+        <entry key="..\:/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/layout/lastviewed_layout.xml" value="0.25" />
+        <entry key="..\:/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/layout/suggestedmovie_layout.xml" value="0.24895833333333334" />
+        <entry key="..\:/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/layout/trending_layout.xml" value="0.24895833333333334" />
         <entry key="..\:/Users/ziren/Desktop/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/drawable/gradient_background.xml" value="0.2265" />
         <entry key="..\:/Users/ziren/Desktop/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/drawable/movie_recyclerview_background.xml" value="0.2265" />
         <entry key="..\:/Users/ziren/Desktop/School/Y2S1/MAD/ASG/TikTok Camp/TikMovie/app/src/main/res/drawable/textfield.xml" value="0.2265" />
