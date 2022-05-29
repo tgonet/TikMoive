@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TikMoive</string>
+
+<string name="app_name">Tikmoive</string>
+<string-array name="Filter">
+<item>Newest First</item>
+<item>Oldest First</item>
+<item>Highest Rating</item>
+<item>Lowest Rating</item>
+</string-array>
+</resources>
