@@ -1,4 +1,5 @@
 package com.example.tikmoive;
+package com.example.TikMovie-master.application.Favourites;
 
 import Anroidx.cardview.widget.CardView;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,6 +16,31 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.Toast;
+import android.support.v7.app.AppCompatActivity;
+
+
+public class Favourites extends AppCompatActivity {
+    private Button button;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_favourites);
+
+        button = (ImageButton) findViewById(R.id/imageButton);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPotentialMoviesDisplayActivity();
+            }
+        });
+    }
+
+    public void openPotentialMoviesDisplayActivity() {
+        Intent intent = new Intent(this, PotentialMoviesDisplayActivity.class);
+        startFavourites(intent);
+    }
+}
 
 public class Favourites extends AppCompatActivity{
     Spinner spinnerLanguages=findViewById(R.id.spinner_languages);
@@ -45,7 +71,6 @@ adapter.setDropDownViewResource(android.R.layout.simple_spinner_item);
 
 
 }
-
 
 
 
